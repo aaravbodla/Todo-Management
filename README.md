@@ -36,3 +36,29 @@ A full-stack web application built using **Java**, **Spring Boot 3**, **Spring D
 
 **Database:**
 - MySQL
+
+
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/aaravbodla/Todo-Management.git
+cd your-repo-name
+
+cd backend
+# Configure database in src/main/resources/application.properties
+# Example:
+# spring.datasource.url=jdbc:mysql://localhost:3306/your_db
+# spring.datasource.username=root
+# spring.datasource.password=your_password
+
+mvn clean install
+mvn spring-boot:run
+
+cd frontend
+npm install
+npm start
+
