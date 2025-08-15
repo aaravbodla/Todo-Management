@@ -1,0 +1,88 @@
+########################################
+# BACKEND (Java + Spring Boot + Maven/Gradle)
+########################################
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+Todo-Management/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+Todo-Management/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+Todo-Management/.gradle/
+Todo-Management/build/
+!Todo-Management/gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# IDEs
+.project
+.classpath
+.settings/
+bin/
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+
+# Local configuration & secrets
+Todo-Management/src/main/resources/application-local.properties
+Todo-Management/src/main/resources/application-dev.properties
+Todo-Management/.env
+
+########################################
+# FRONTEND (React)
+########################################
+
+# Dependencies
+todo-ui/node_modules/
+
+# Production build
+todo-ui/build/
+
+# Environment files
+todo-ui/.env
+todo-ui/.env.local
+todo-ui/.env.development.local
+todo-ui/.env.test.local
+todo-ui/.env.production.local
+
+# Logs
+todo-ui/npm-debug.log*
+todo-ui/yarn-debug.log*
+todo-ui/yarn-error.log*
+todo-ui/pnpm-debug.log*
+
+# Misc
+.DS_Store
+
+########################################
+# DATABASE / SECRETS
+########################################
+
+# Local database dumps
+*.sql
+*.sqlite
+*.db
