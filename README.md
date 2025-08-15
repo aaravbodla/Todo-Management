@@ -61,4 +61,11 @@ mvn spring-boot:run
 cd frontend
 npm install
 npm start
+```
+## 📸 Screenshots
 
+### Home Page
+![Home Page](Screenshots/HomePage.png)
+
+### Login Page
+![Login Page](Screenshots/Login.png)
