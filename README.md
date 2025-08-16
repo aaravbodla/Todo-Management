@@ -41,9 +41,7 @@ A full-stack web application built using **Java**, **Spring Boot 3**, **Spring D
 
 ---
 
-## ⚙️ Getting Started
-
-### 1️⃣ Clone the repository
+###  Clone the repository
 ```bash
 git clone https://github.com/aaravbodla/Todo-Management.git
 cd your-repo-name
@@ -62,7 +60,7 @@ cd frontend
 npm install
 npm start
 ```
-## 📸 Screenshots
+## Screenshots
 
 ### Home Page
 ![Home Page](Screenshots/HomePage.png)
